@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/no-unknown-property */
 import * as Three from 'three';
 import React, { Suspense, useRef } from "react";
 import { Environment, OrbitControls, useGLTF } from "@react-three/drei";
@@ -79,6 +81,7 @@ export default function Hero() {
         <OrbitControls autoRotate={true} />
       </Suspense>
     </Canvas>
+    
     </>
   )
 }

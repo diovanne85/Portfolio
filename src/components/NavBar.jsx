@@ -1,4 +1,6 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
+import "../App";
 
 export default function NavBar() {
   return (
@@ -14,6 +16,7 @@ export default function NavBar() {
           <a href="/contact">Contact</a>
         </li>
       </ul>
+     
     </div>
   );
 }

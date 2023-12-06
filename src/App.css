@@ -4,8 +4,8 @@
 
 :root {
   --headline-color:yellow;
-  --background-color:rgb(220, 219, 219);
-  --text-color: rgb(0, 0, 0);
+  --background-color:rgb(20, 19, 19);
+  --text-color: rgb(248, 245, 245);
 }
 
 html, body {
@@ -92,13 +92,12 @@ html, body {
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   font-weight: 700;
-  color: black;
+  color: rgb(255, 251, 251);
 }
 .title p{
 font-size:9px;
 color: yellow;
 }
-
 
 .socials svg{
   margin: 0 5px;
@@ -118,13 +117,13 @@ p{
 
 
 a {
-  color: rgba(0, 0, 0, 0.932);
+  color: rgba(247, 242, 242, 0.932);
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
 
 a:hover{
-  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.9));
+  filter: drop-shadow(0px 0px 10px rgba(250, 249, 249, 0.9));
 }
 .nav{
   text-decoration: none;
@@ -136,5 +135,5 @@ a:hover{
   transition: all 0.5s ease-in-out;
 }
 li:hover{
-  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.9));
+  filter: drop-shadow(0px 0px 10px rgba(247, 246, 246, 0.9));
 }
