@@ -1,0 +1,17 @@
+.container{
+    text-align: center;
+}
+h2{
+font-size: 50px;
+color: yellow;
+font-family: 'Open Sans', sans-serif;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    place-items: center;
+}
+.intro p{
+    font-size: 20px;
+}
